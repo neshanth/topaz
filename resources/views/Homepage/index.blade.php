@@ -118,6 +118,26 @@
 
 <!-- End of Our Causes -->
 
+<!-- Our Blog -->
+
+<div class="container py-3 our-blog">
+    <h2 class="text-center my-5">OUR BLOG</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="#" class="our-blog-title mb-3 d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus minima atque a placeat dignissimos voluptatibus?</a>
+            <p class="our-blog-sub-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, natus.</p>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="our-blog-title mb-3 d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus minima atque a placeat dignissimos voluptatibus?</a>
+            <p class="our-blog-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, harum.</p>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="our-blog-title mb-3 d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus minima atque a placeat dignissimos voluptatibus?</a>
+            <p class="our-blog-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sapiente.</p>
+        </div>
+    </div>
+</div>
+
 
 
 @endsection

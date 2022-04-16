@@ -105,3 +105,17 @@
 .cause-img {
     border: none;
 }
+/* End of our causes */
+
+/* Our Blog */
+.our-blog-title {
+    text-align: left;
+    color: #244150;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+}
+.our-blog-sub-title {
+    color: #244150;
+}
