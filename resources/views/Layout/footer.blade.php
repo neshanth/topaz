@@ -2,13 +2,13 @@
     <div class="site-footer py-5">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-12">
                     <p>CONTACT US</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-12">
                     <p>CONNECT WITH US</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-sm-12">
                     <p>SUBSCRIBE</p>
                     <form class="d-flex align-items-baseline">
                         <div class="mb-3">
