@@ -89,21 +89,35 @@
 
 <!-- Our Causes Section -->
 <div class="container py-3 our-causes">
-    <h2 class="text-center">OUR CAUSES</h2>
+    <h2 class="text-center my-5">OUR CAUSES</h2>
     <div class="row">
         <div class="col-md-4">
-            <img src="https://images.unsplash.com/photo-1650105312043-647cc3ac893e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block img-thumbnail img-thumbnail" alt="">
+            <img src="https://images.unsplash.com/photo-1650105312043-647cc3ac893e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block img-thumbnail img-thumbnail cause-img" alt="">
             <p class="our-cause-title">Lorem ipsum dolor sit amet.</p>
+            <div class="d-flex justify-content-center">
+                <button class="btn our-causes-btn rounded-pill">More Info</button>
+            </div>
+
         </div>
         <div class="col-md-4">
-            <img src="https://images.unsplash.com/photo-1650105312043-647cc3ac893e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block img-thumbnail" alt="">
+            <img src="https://images.unsplash.com/photo-1650105312043-647cc3ac893e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block img-thumbnail cause-img" alt="">
             <p class="our-cause-title">Lorem ipsum dolor sit amet.</p>
+            <div class="d-flex justify-content-center">
+                <button class="btn  our-causes-btn rounded-pill">More Info</button>
+            </div>
         </div>
         <div class="col-md-4">
-            <img src="https://images.unsplash.com/photo-1650105312043-647cc3ac893e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block img-thumbnail" alt="">
+            <img src="https://images.unsplash.com/photo-1650105312043-647cc3ac893e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block img-thumbnail cause-img" alt="">
             <p class="our-cause-title">Lorem ipsum dolor sit amet.</p>
+            <div class="d-flex justify-content-center">
+                <button class="btn our-causes-btn rounded-pill">More Info</button>
+            </div>
         </div>
     </div>
 </div>
+
+<!-- End of Our Causes -->
+
+
 
 @endsection
