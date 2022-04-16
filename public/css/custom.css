@@ -1,0 +1,94 @@
+/* Navbar */
+.header-container {
+    background-color: #244150;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff8400;
+}
+
+.donate-btn {
+    background-color: #f4cd50;
+    border-radius: 0;
+    color: #244150;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+.donate-btn:hover {
+    background-color: #fff;
+}
+
+/* End of Navbar */
+
+/* Slideshow  */
+
+.carousel-caption {
+    top: 20%;
+    bottom: 0;
+}
+.slider-caption {
+    font-size: 5rem;
+}
+
+.social-icons {
+    background-color: #f4cd50;
+    position: fixed;
+    padding: 1.5em;
+    top: 30%;
+    right: 0;
+    z-index: 1;
+}
+.social-icon {
+    margin: 0.5em 0;
+}
+.slider-caption-custom {
+    color: #f4cd50;
+    font-size: 1.4rem;
+    margin-bottom: 0.5em;
+}
+.slider-image {
+    filter: brightness(0.5);
+}
+
+/* End of Slideshow */
+
+/* 2 column section */
+.our-misson {
+    background-color: #e8eaea;
+    color: #244150;
+}
+.pledge {
+    background-color: #a9504d;
+    color: #fff;
+}
+.latest-project {
+    background-color: #44b29d;
+    color: #fff;
+}
+.subscribe {
+    background-color: #244150;
+    color: white;
+}
+.newsletter-input {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+/* End of 2 col section */
+
+/* Our causes Section */
+.our-causes {
+    color: #244150;
+}
+.our-cause-title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5em;
+}
