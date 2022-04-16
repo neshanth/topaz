@@ -1,3 +1,6 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
 /* Navbar */
 .header-container {
     background-color: #244150;
@@ -8,6 +11,12 @@
 
 .navbar-nav .nav-item .nav-link:hover {
     color: #ff8400;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ff8400;
+}
+.navbar-toggler {
+    background-color: #f4cd50;
 }
 
 .donate-btn {
@@ -29,9 +38,6 @@
     top: 20%;
     bottom: 0;
 }
-.slider-caption {
-    font-size: 5rem;
-}
 
 .social-icons {
     background-color: #f4cd50;
@@ -51,6 +57,12 @@
 }
 .slider-image {
     filter: brightness(0.5);
+}
+
+@media screen and (min-width: 800px) {
+    .slider-caption {
+        font-size: 5rem;
+    }
 }
 
 /* End of Slideshow */

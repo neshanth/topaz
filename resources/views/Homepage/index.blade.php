@@ -26,7 +26,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="{{ asset("images/1.jpg") }}" class="d-block w-100 slider-image" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption  d-md-block d-sm-block d-xs-block">
                 <h2 class="slider-caption">TOPAZ FOUNDATION</h2>
                 <p class="slider-caption-custom">To see the world in a new way</p>
                 <p class="slider-caption-custom">To heal the world in a new way</p>
@@ -36,7 +36,7 @@
         </div>
         <div class="carousel-item">
             <img src="{{ asset("images/2.jpg") }}" class="d-block w-100 slider-image" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption  d-md-block">
                 <h2 class="slider-caption">Second slide label</h2>
                 <p>Some representative placeholder content for the second slide.</p>
             </div>

@@ -1,7 +1,7 @@
 <!-- Header
 		============================================= -->
 
-<nav class="navbar navbar-expand-lg header-container py-3 sticky-top">
+<nav class="navbar navbar-expand-lg header-container py-3 sticky-top navbar-light">
     <div class="container-fluid menu-items-container">
         <a class="navbar-brand" href="#">Topaz</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
