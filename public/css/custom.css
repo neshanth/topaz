@@ -119,3 +119,35 @@
 .our-blog-sub-title {
     color: #244150;
 }
+
+/* End of Blog */
+
+.site-footer {
+    background-color: #e8eaea;
+    color: #244150;
+    font-weight: 600;
+}
+.newsletter-input-footer {
+    width: 100%;
+    border-bottom: 1px solid #244150;
+}
+.number {
+    background-color: #44b29d;
+    color: #244150;
+    padding: 1.5em;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+.number p {
+    margin-bottom: 0;
+}
+.copyright {
+    background-color: #244150;
+    text-align: center;
+    padding: 1em;
+}
+.copyright p {
+    margin-bottom: 0;
+    color: #fff;
+}
