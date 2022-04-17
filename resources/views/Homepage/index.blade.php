@@ -60,18 +60,18 @@
         <div class="our-misson  text-center py-5 col-lg-6  col-md-6  col-sm-12">
             <h2>OUR MISSION</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, aliquid.</p>
-            <button class="btn btn-primary">Read more</button>
+            <button class="btn btn-custom">Read more</button>
         </div>
         <div class="pledge  text-center py-5 col-lg-6 col-md-6 col-sm-12">
             <h2>TAKE A PLEDGE</h2>
-            <button class="btn btn-primary">SUPPORT US</button>
+            <button class="btn btn-custom-secondary">SUPPORT US</button>
         </div>
     </div>
     <div class="row">
         <div class="latest-project  text-center py-5 col-lg-6 col-md-6 col-sm-12">
             <h2>LATEST PROJECT</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, aliquid.</p>
-            <button class="btn btn-primary">Read more</button>
+            <button class="btn btn-custom">Read more</button>
         </div>
         <div class="subscribe  text-center py-5 col-lg-6 col-md-6 col-sm-12">
             <h2>SUBSCRIBE</h2>
@@ -80,7 +80,7 @@
                     <label for="subscribe" class="form-label">Email address</label>
                     <input type="email" class="form-control newsletter-input" id="subscribe" aria-describedby="emailHelp">
                 </div>
-                <button type="submit" class="btn btn-primary">Join</button>
+                <button type="submit" class="btn btn-custom-secondary">Join</button>
             </form>
         </div>
     </div>
@@ -121,7 +121,7 @@
 <!-- Our Blog -->
 
 <div class="container py-3 our-blog">
-    <h2 class="text-center my-5">OUR BLOG</h2>
+    <h2 class="text-center my-5 blog-section-heading">OUR BLOG</h2>
     <div class="row">
         <div class="col-md-4">
             <a href="#" class="our-blog-title mb-3 d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus minima atque a placeat dignissimos voluptatibus?</a>

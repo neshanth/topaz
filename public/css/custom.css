@@ -20,6 +20,28 @@ h6 {
     font-family: "Lulu";
 }
 
+.btn-custom {
+    background-color: #244150;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-custom:hover {
+    background-color: #f4cd50;
+}
+.btn-custom-secondary {
+    background-color: #f4cd50;
+    color: #244150;
+    text-transform: uppercase;
+}
+.btn-custom-secondary:hover {
+    background-color: #fff;
+    color: #000;
+}
+.btn-custom,
+.btn-custom-secondary {
+    letter-spacing: 1.1px;
+}
+
 /* Navbar */
 .header-container {
     background-color: #244150;
@@ -128,6 +150,7 @@ h6 {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 1.1px;
 }
 .our-causes-btn:hover {
     background-color: #f4cd50;
@@ -148,6 +171,9 @@ h6 {
     margin-bottom: 1em;
 }
 .our-blog-sub-title {
+    color: #000;
+}
+.blog-section-heading {
     color: #244150;
 }
 

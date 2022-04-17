@@ -14,7 +14,7 @@
                         <div class="mb-3">
                             <input type="email" placeholder="Email Address" class="form-control newsletter-input newsletter-input-footer" id="subscribe" aria-describedby="emailHelp">
                         </div>
-                        <button type="submit" class="btn btn-primary">Join</button>
+                        <button type="submit" class="btn btn-custom-secondary mx-1">Join</button>
                     </form>
                 </div>
             </div>
