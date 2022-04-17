@@ -18,7 +18,7 @@
 
     <!-- Document Title
 	============================================= -->
-    <title>NonProfit Demo | Canvas</title>
+    <title>Topaz</title>
 </head>
 
 <body>
