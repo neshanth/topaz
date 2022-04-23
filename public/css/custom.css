@@ -179,6 +179,14 @@ h6 {
 
 /* End of Blog */
 
+/* Footer */
+
+/* footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+} */
+
 .site-footer {
     background-color: #e8eaea;
     color: #244150;
@@ -207,4 +215,56 @@ h6 {
 .copyright p {
     margin-bottom: 0;
     color: #fff;
+}
+
+/* End of footer */
+
+/* About us  */
+.about-section {
+    background-color: #063639;
+    padding: 1em 3em;
+    color: #fff;
+}
+.about-us-heading {
+    color: #0d655b;
+}
+.about-topaz {
+    color: #808080;
+}
+.about-container {
+    padding: 4em 0;
+}
+.goal-statement {
+    color: #808080;
+}
+.volunteer-img {
+    width: 50%;
+    margin: 0 auto;
+}
+.mission-goals,
+.video-container {
+    padding: 3em 3em;
+}
+.goal-statement-box {
+    margin: 1em 0;
+    box-shadow: 1px 1px 5px #808080;
+    padding: 1em;
+}
+.mission-statement,
+.volunteer-text,
+.latest-video-text {
+    color: #808080;
+}
+video {
+    margin: 1em 0;
+}
+.volunteer-text {
+    max-width: 50%;
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 800px) {
+    .volunteer-text {
+        max-width: 100%;
+    }
 }

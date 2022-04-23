@@ -11,4 +11,8 @@ class Homepage extends Controller
     {
         return view("Homepage/index");
     }
+    public function about()
+    {
+        return view("About.about");
+    }
 }
