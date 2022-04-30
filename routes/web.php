@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Dashboard\Dashboard;
+use App\Http\Controllers\Events\EventsController;
 use App\Http\Controllers\Home\Homepage;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +21,6 @@ Route::get("/about", [Homepage::class, 'about']);
 
 // Admin
 Route::get("/admin", [Dashboard::class, 'index'])->name("dashboard");
+
+//Events
+Route::resource("events", EventsController::class);

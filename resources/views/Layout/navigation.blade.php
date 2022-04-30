@@ -18,7 +18,7 @@
                     <a class="nav-link" href="/about">About Us</a>
                 </li>
                 <li class="nav-item text-light">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="{{ route("events.index") }}">Events</a>
                 </li>
                 <li class="nav-item text-light">
                     <a class="nav-link" href="#">Blog</a>

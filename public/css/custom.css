@@ -268,3 +268,32 @@ video {
         max-width: 100%;
     }
 }
+
+/* Events Page */
+.event-cat {
+    color: #808080;
+}
+.event-info {
+    background-color: #dee4e4;
+}
+.progress {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.progress-bar {
+    background-color: #67c6b0;
+}
+.event-info,
+.event-details {
+    padding: 1em;
+}
+.event-title {
+    font-family: "Avenir";
+}
+
+.event {
+    box-shadow: 1px 1px 5px #808080;
+}
+.event:hover {
+    box-shadow: 1px 1px 20px #808080;
+}
