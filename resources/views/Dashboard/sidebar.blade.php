@@ -22,7 +22,7 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-list"></i>
                         <p>
-                            Our Causes
+                            Our Events
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -30,12 +30,12 @@
 
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <p>Causes</p>
+                                <p>Events</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <p>New Cause</p>
+                            <a href="{{ route("events.create") }}" class="nav-link">
+                                <p>New Event</p>
                             </a>
                         </li>
                     </ul>
