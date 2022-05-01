@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Dashboard\Dashboard;
 use App\Http\Controllers\Events\EventsController;
 use App\Http\Controllers\Home\Homepage;
@@ -19,8 +20,13 @@ use Illuminate\Support\Facades\Route;
 Route::get("/", [Homepage::class, 'index']);
 Route::get("/about", [Homepage::class, 'about']);
 
+// Login
+Route::get("/login", [LoginController::class, 'index'])->name("login");
+Route::post("/login", [LoginController::class, 'login']);
+Route::post("/logout", [LoginController::class, 'logout']);
+
 // Admin
-Route::get("/admin", [Dashboard::class, 'index'])->name("dashboard");
+Route::get("/topaz/admin", [Dashboard::class, 'index'])->name("dashboard");
 
 //Events
 Route::resource("events", EventsController::class);
