@@ -41,6 +41,9 @@ h6 {
 .btn-custom-secondary {
     letter-spacing: 1.1px;
 }
+.text-custom-primary {
+    color: #f4cd50;
+}
 
 /* Navbar */
 .header-container {
@@ -296,4 +299,34 @@ video {
 }
 .event:hover {
     box-shadow: 1px 1px 20px #808080;
+}
+.single-event-cat {
+    margin: 0 auto;
+    width: 10%;
+    color: #063639;
+}
+.single-event-progress {
+    background-color: #063639;
+    padding: 0;
+}
+.single-event-bar {
+    background-color: #f4cd50;
+}
+.total-amount {
+    color: #f4cd50;
+}
+.received {
+    color: #063639;
+}
+.seperator {
+    font-size: 1rem;
+}
+
+.total-amount,
+.received,
+.seperator {
+    display: inline-block;
+    margin: 0.5em;
+    font-size: 1.4rem;
+    font-weight: 600;
 }

@@ -1,10 +1,10 @@
 @extends("Dashboard.dashboard")
 
 @section("content")
-@if(session('success'))
-<p class="text-success text-center">{{ session('success') }}</p>
-@endif
 <div class="col-md-6">
+    @if(session('success'))
+    <p class="text-success text-center" style="font-size: 1.5rem;">{{ session('success') }}</p>
+    @endif
     <!-- general form elements -->
     <div class="card card-primary">
         <div class="card-header">
@@ -33,6 +33,7 @@
                 <div class="form-group">
                     <label for="total_donation">Total Donation Amount</label>
                     <input type="text" class="form-control" id="total_donation" value="{{ old('total_donation') }}" name="total_donation" placeholder="Total Donation" required>
+                    <small class="text-danger">Enter number without any commas</small>
                     @error('total_donation')
                     <p class="text-danger my-3">{{ $message }}</p>
                     @enderror
@@ -40,6 +41,7 @@
                 <div class="form-group">
                     <label for="donation_received">Donation Received</label>
                     <input type="text" class="form-control" id="donation_received" value="{{ old('donation_received') }}" name="donation_received" placeholder="Donation Received" required>
+                    <small class="text-danger">Enter number without any commas</small>
                     @error('donation_received')
                     <p class="text-danger my-3">{{ $message }}</p>
                     @enderror

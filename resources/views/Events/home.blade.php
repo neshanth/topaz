@@ -1,7 +1,7 @@
 @extends("Layout.layout")
 
 @section("content")
-<div class="container">
+<div class="container" style="min-height: 50vh;">
     <div class="row px-3 my-3">
         <h2 class="text-center py-3">Our Events</h2>
         @foreach ($events as $event)
@@ -17,7 +17,8 @@
                     </div>
                 </div>
                 <div class="event-details">
-                    {!! $event->event_desc !!}
+                    {!! substr(strip_tags($event->event_desc),0, 100) !!}
+                    <a href="{{ route("events.show",[$event->id]) }}">Read more</a>
                 </div>
             </div>
         </div>

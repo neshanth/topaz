@@ -1,11 +1,11 @@
 @extends("Dashboard.dashboard")
 
 @section("content")
-@if(session('success'))
-<p class="text-success text-center">{{ session('success') }}</p>
-@endif
 @foreach ($event as $e)
 <div class="col-md-6">
+    @if(session('success'))
+    <p class="text-success text-center" style="font-size: 1.5rem;">{{ session('success') }}</p>
+    @endif
     <!-- general form elements -->
     <div class="card card-primary">
         <div class="card-header">
@@ -13,7 +13,7 @@
         </div>
         <!-- /.card-header -->
         <!-- form start -->
-        <form action="{{ route("events.update") }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route("events.update",[$e->id]) }}" method="POST" enctype="multipart/form-data">
             @csrf
             @method('PUT')
             <div class="card-body">

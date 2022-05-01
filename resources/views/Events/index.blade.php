@@ -1,7 +1,10 @@
 @extends("Dashboard.dashboard")
 
 @section("content")
-<div class="col-12">
+<div class="col-md-12">
+    <div class="add-category d-flex justify-content-end my-3">
+        <a class="btn btn-custom" href="{{ route('events.create') }}">Add Event <i class="fa fa-plus"></i></a>
+    </div>
     <div class="table-responsive">
         <table class="table" id="myTable">
             <thead>

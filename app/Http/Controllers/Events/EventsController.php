@@ -77,7 +77,8 @@ class EventsController extends Controller
      */
     public function show($id)
     {
-        //
+        $event = Event::find($id);
+        return view("Events.show", ['event' => $event]);
     }
 
     /**
@@ -102,7 +103,7 @@ class EventsController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'event_name' => 'required,$id',
+            'event_name' => "required|unique:events,event_name,$id",
             'category' => 'required',
             'total_donation' => 'required|numeric|gt:donation_received',
             'donation_received' => 'required|numeric',
@@ -139,7 +140,10 @@ class EventsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $imageName =  $this->getImage($id);
+        $this->deleteImage($imageName);
+        Event::destroy($id);
+        return redirect()->action([EventsController::class, 'index']);
     }
     public function home()
     {
@@ -154,5 +158,10 @@ class EventsController extends Controller
     private function deleteImage($imageName)
     {
         Storage::delete("/public/event/" . $imageName);
+    }
+    private function getImage($id)
+    {
+        $event = Event::find($id);
+        return $event->event_image;
     }
 }
