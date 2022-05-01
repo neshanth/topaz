@@ -8,10 +8,15 @@
     </ul>
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-
+        @auth
         <li class="nav-item">
-
+            <form action="/logout" method="POST">
+                @csrf
+                <button class="btn btn-danger">Logout</button>
+            </form>
         </li>
+        @endauth
+
 
     </ul>
 </nav>
