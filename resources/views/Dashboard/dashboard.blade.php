@@ -1,6 +1,6 @@
-@include('dashboard.header')
-@include('dashboard.navbar')
-@include('dashboard.sidebar')
+@include('Dashboard.header')
+@include('Dashboard.navbar')
+@include('Dashboard.sidebar')
 <div class="wrapper">
 
     <!-- Preloader -->
@@ -24,4 +24,4 @@
     </div>
     <!-- /.content-wrapper -->
 
-    @include('dashboard.footer')
+    @include('Dashboard.footer')
