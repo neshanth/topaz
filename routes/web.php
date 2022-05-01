@@ -30,3 +30,4 @@ Route::get("/topaz/admin", [Dashboard::class, 'index'])->name("dashboard");
 
 //Events
 Route::resource("events", EventsController::class);
+Route::get("/topaz/events", [EventsController::class, 'home']);
