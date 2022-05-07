@@ -25,5 +25,7 @@ class ContactController extends Controller
         // ]);
 
         Mail::to("admin@topazfoundation.org.in")->send(new ContactMail($request->name, $request->email, $request->subject, $request->phone, $request->body));
+
+        return view("Contact.contact");
     }
 }
