@@ -44,6 +44,9 @@ h6 {
 .text-custom-primary {
     color: #f4cd50;
 }
+a {
+    text-decoration: none;
+}
 
 /* Navbar */
 .header-container {
@@ -272,7 +275,7 @@ video {
     }
 }
 
-/* Events Page */
+/* Events and blog Page */
 .event-cat {
     color: #808080;
 }
@@ -294,10 +297,12 @@ video {
     font-family: "Avenir";
 }
 
-.event {
+.event,
+.blog {
     box-shadow: 1px 1px 5px #808080;
 }
-.event:hover {
+.event:hover,
+.blog:hover {
     box-shadow: 1px 1px 20px #808080;
 }
 .single-event-cat {
@@ -329,4 +334,28 @@ video {
     margin: 0.5em;
     font-size: 1.4rem;
     font-weight: 600;
+}
+
+/* Blog page */
+.blog-title a,
+.blog-title {
+    color: #254151;
+    font-family: "Avenir";
+}
+.blog-title a:hover {
+    color: #f4cd50;
+}
+.blog-details {
+    color: #475f6c;
+}
+.blog-details-single {
+    color: #2f2f2e;
+}
+.blog-author {
+    margin-bottom: 0;
+}
+.blog-author,
+.blog-info {
+    color: gray;
+    font-size: 0.8rem;
 }

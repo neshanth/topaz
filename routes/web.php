@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Blog\BlogController;
 use App\Http\Controllers\Dashboard\Dashboard;
 use App\Http\Controllers\Events\EventsController;
 use App\Http\Controllers\Home\Homepage;
@@ -31,3 +32,7 @@ Route::get("/topaz/admin", [Dashboard::class, 'index'])->name("dashboard");
 //Events
 Route::resource("events", EventsController::class);
 Route::get("/topaz/events", [EventsController::class, 'home']);
+
+//Blogs
+Route::resource("blogs", BlogController::class);
+Route::get("/topaz/blogs", [BlogController::class, 'home']);

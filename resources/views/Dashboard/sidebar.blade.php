@@ -40,6 +40,28 @@
                         </li>
                     </ul>
                 </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-blog"></i>
+                        <p>
+                            Our Blogs
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+
+                        <li class="nav-item">
+                            <a href="{{ route('blogs.index') }}" class="nav-link">
+                                <p>Blogs</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route("blogs.create") }}" class="nav-link">
+                                <p>New Blog</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </div>
