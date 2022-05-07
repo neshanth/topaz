@@ -295,12 +295,22 @@ video {
 }
 .event-title {
     font-family: "Avenir";
+    color: #000;
 }
-
-.event,
+.event-title:hover {
+    color: #f4cd50;
+}
+.event-donation {
+    color: #000;
+}
+.event-details {
+    background-color: #fff;
+    color: #000;
+}
+/* .event,
 .blog {
     box-shadow: 1px 1px 5px #808080;
-}
+} */
 .event:hover,
 .blog:hover {
     box-shadow: 1px 1px 20px #808080;
@@ -325,6 +335,12 @@ video {
 }
 .seperator {
     font-size: 1rem;
+}
+.single-event-title {
+    font-family: "Avenir";
+}
+.card-img-top {
+    object-fit: cover;
 }
 
 .total-amount,
