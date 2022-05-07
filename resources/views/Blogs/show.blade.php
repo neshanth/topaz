@@ -10,7 +10,7 @@
         <div class="blog-single-info d-flex my-2 justify-content-center">
             <p class="blog-author mx-2">Admin <i class="fa fa-crown"></i></p>
             <p class="blog-info mx-2">
-                <span>{{ $blog->created_at->format('M d') }}</span> <span>.</span> <span class="blog-reading"><?= strlen($blog->blog_body) > 200 ? ceil(strlen($blog->blog_body) / 200) : 1  ?> min read</span>
+                <span>{{ $blog->created_at->format('M j') }}</span> <span class="blog-seperator">|</span> <span class="blog-reading"><?= strlen($blog->blog_body) > 200 ? ceil(strlen($blog->blog_body) / 200) : 1  ?> min read</span>
             </p>
         </div>
         <div class="col-md-12  mx-auto my-5 blog-details-single">

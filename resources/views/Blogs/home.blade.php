@@ -10,10 +10,12 @@
                 <div class="blog card">
                     <img src="{{ asset("storage/blog/".$blog->blog_image) }}" class="d-block w-100 card-img-top" alt={{ $blog->blog_title }} />
                     <div class="card-body">
-                        <p class="blog-author">Admin <i class="fa fa-crown"></i></p>
-                        <p class="blog-info">
-                            <span>{{ $blog->created_at->format('M d') }}</span> . <span class="blog-reading"><?= strlen($blog->blog_body) > 200 ? ceil(strlen($blog->blog_body) / 200) : 1  ?> min</span>
-                        </p>
+                        <div class="d-flex justify-content-between">
+                            <p class="blog-author">Admin <i class="fa fa-crown"></i></p>
+                            <p class="blog-info">
+                                <span> {{ $blog->created_at->format('M j') }} </span> <span class="blog-seperator">|</span> <span class="blog-reading"><?= strlen($blog->blog_body) > 200 ? ceil(strlen($blog->blog_body) / 200) : 1  ?> min</span>
+                            </p>
+                        </div>
                         <h4 class="blog-title">
                             <a href="{{ route("blogs.show",[$blog->id]) }}">{{ $blog->blog_title }}</a>
                         </h4>
