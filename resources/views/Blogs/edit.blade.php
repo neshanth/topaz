@@ -40,6 +40,7 @@
                             <label class="custom-file-label" for="blog_image">Choose file</label>
                         </div>
                     </div>
+                    <p id="file-info" class="text-primary" style="margin-top: 1rem ;">No File Uploaded</p>
                     @error('blog_image')
                     <p class="text-danger my-3">{{ $message }}</p>
                     @enderror
