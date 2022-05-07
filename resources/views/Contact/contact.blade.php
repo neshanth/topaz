@@ -18,13 +18,28 @@
             </div>
         </div>
         <div class="col-md-6">
+            @if(session('success'))
+            <p class="text-success text-center" style="font-size: 1.5rem;">{{ session('success') }}</p>
+            @endif
             <form action="/contact" method="post">
                 @csrf
                 <input type="text" class="form-control mb-2" name="name" placeholder="Name" required>
+                @error('name')
+                <p class="text-danger">{{ $message }}</p>
+                @enderror
                 <input type="email" class="form-control mb-2" name="email" placeholder="Email" required>
+                @error('email')
+                <p class="text-danger">{{ $message }}</p>
+                @enderror
                 <input type="text" class="form-control mb-2" name="subject" placeholder="Subject" required>
-                <input type="text" class="form-control mb-2" name="phone" placeholder="Phone" required>
+                @error('subject')
+                <p class="text-danger">{{ $message }}</p>
+                @enderror
+                <input type="text" class="form-control mb-2" name="phone" placeholder="Phone">
                 <textarea class="form-control mb-2" name="body" id="body" placeholder="Message" required></textarea>
+                @error('body')
+                <p class="text-danger">{{ $message }}</p>
+                @enderror
                 <div class="d-flex mb-3 justify-content-center">
                     <button class="btn btn-primary">Submit</button>
                 </div>

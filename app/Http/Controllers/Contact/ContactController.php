@@ -16,16 +16,15 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-        // $request->validate([
-        //     'name' => $request->name,
-        //     'email' => $request->email,
-        //     'subject' => $request->subject,
-        //     'phone' => $request->phone,
-        //     'body' => $request->body
-        // ]);
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'subject' => 'required',
+            'body' => 'required'
+        ]);
 
         Mail::to("admin@topazfoundation.org.in")->send(new ContactMail($request->name, $request->email, $request->subject, $request->phone, $request->body));
 
-        return view("Contact.contact");
+        return redirect()->back()->with("success", "Thank you for getting in touch with us");
     }
 }
